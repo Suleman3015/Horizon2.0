@@ -15,12 +15,24 @@ a {
   box-sizing: border-box;
 }
 
+.icon{
+  font-size: 20px;
+  color: lightgray;
+}
+
+.icon:hover{
+  color:white;
+  transition: 0.2s ease-out;
+  transform: translateY(-3px);
+}
+
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: #FFFFFF;
   }
 }
